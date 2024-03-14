@@ -72,7 +72,7 @@ public class CellRowRecyclerViewAdapter<C> extends AbstractRecyclerViewAdapter<C
     }
 
     @Override
-    public int getItemViewType(int position,int mYPosition) {
+    public int getItemViewType(int position) {
         return mTableAdapter.getCellItemViewType(position);
     }
 
